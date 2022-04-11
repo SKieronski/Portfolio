@@ -9,7 +9,7 @@
   /* height: 1rem; */
 }
 
-.TechListUL {
+/* .TechListUL {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -17,24 +17,37 @@
 
 .TechListLI {
   flex: 1 0 25%;
-  /* display: inline; */
-}
+  display: inline;
+} */
 
-#IphoneImageContainer {
+/* #IphoneImageContainer {
   width: 25%;
-}
+} */
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
-  #IphoneImageContainer {
+  /* #IphoneImageContainer {
     width: 40%;
-  }
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  /* #IphoneImageContainer {
+    width: 70%;
+    
+  } */
 }
 
 #GitHubButton {
   /* display: inline; */
   /* position: relative; */
   /* transform: translateY(-50%); */
-  left: 40%;
+  /* left: 40%; */
 }
+
+.TechItem {
+  font-weight: bold;
+}
+
+
 
 
