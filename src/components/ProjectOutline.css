@@ -18,7 +18,12 @@
 #Title {
     font-family: 'Lobster', cursive;
 }
+
 #IphoneImageContainer {
     margin-left: auto;
     margin-right: auto;
+}
+
+#ImageContainer {
+    margin: auto;
 }
