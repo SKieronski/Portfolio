@@ -15,7 +15,7 @@ function App() {
         <div class="columns">
           <div class="column" id="CenterText">
             <div class="block" />
-            <p class="title is-1">Wind</p>
+            <p class="title is-1" id="WindTitle">Wind</p>
             <div class="content">
               <p id="TitleSubText">
                 Bored of running the same route over and over again? 
@@ -25,7 +25,7 @@ function App() {
               </p>
             </div>
             <div class="block" />
-            <p class="title is-3">Tech Used</p>
+            <p class="title is-3" id="Tech">Tech Used</p>
             <div class="columns is-mobile is-multiline is-centered">
               {myWindTech.map((tech) => {
                 return (
@@ -53,9 +53,6 @@ function App() {
         </div>
       </div>
     </section>
-      {/* <HeaderBar /> */}
-      {/* <ProjectOutline />
-      <ProjectOutline /> */}
   </div>
   );
 }
