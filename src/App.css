@@ -20,9 +20,10 @@
   display: inline;
 } */
 
-/* #IphoneImageContainer {
-  width: 25%;
-} */
+#IphoneImageContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
   /* #IphoneImageContainer {
@@ -38,14 +39,23 @@
 }
 
 #GitHubButton {
-  /* display: inline; */
-  /* position: relative; */
-  /* transform: translateY(-50%); */
-  /* left: 40%; */
+  /* display: inline;  */
+  /* position: absolute;
+  transform: translateX(-50%); */
+  /* left: 43%; */
+  /* text-align: center; */
 }
 
 .TechItem {
   font-weight: bold;
+}
+
+#CenterText {
+  text-align: center;
+}
+
+#TitleSubText {
+  text-align: left;
 }
 
 
