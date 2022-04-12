@@ -3,6 +3,7 @@ import './App.css';
 import HeaderBar from './components/HeaderBar';
 import ProjectOutline from './components/ProjectOutline';
 import ContactMe from "./components/ContactMe";
+import AboutMe from "./components/AboutMe";
 
 const myWindTech = ["MongoDB", "Express", "React-Native", "Node.js", "Axios", "Expo"
   , "Xcode", "Bcrypt", "React-Native-Maps", "React-Navigation", "JWT"]
@@ -38,6 +39,7 @@ function App() {
     <ProjectOutline techList={myGitnessTech} title={myGitnessTitle} description={myGitnessDescription} githubHref={myGitnessGithub} imgSrc={myGitnessImg}/>
     <ProjectOutline techList={myCFTech} title={myCFTitle} description={myCFDescription} githubHref={myCFGithub} imgSrc={myCFImg}/>
     <ProjectOutline techList={mySPPTech} title={mySPPTitle} description={mySPPDescription} githubHref={mySPPGithub} imgSrc={mySPPImg}/>
+    <AboutMe />
     <ContactMe />
   </div>
   );

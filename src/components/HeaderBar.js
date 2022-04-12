@@ -23,10 +23,10 @@ function HeaderBar() {
                         <a class="navbar-item" href="http://localhost:3000/#ProjectSection">
                             Projects
                         </a>
-                        <a class="navbar-item" href="http://localhost:3000/#Contact">
+                        <a class="navbar-item" href="http://localhost:3000/#About">
                             About
                         </a>
-                        <a class="navbar-item">
+                        <a class="navbar-item" href="http://localhost:3000/#Contact">
                             Contact
                         </a>
                     </div>
