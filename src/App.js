@@ -1,7 +1,8 @@
 import "bulma/css/bulma.min.css";
 import './App.css';
-// import HeaderBar from './components/HeaderBar';
+import HeaderBar from './components/HeaderBar';
 import ProjectOutline from './components/ProjectOutline';
+import ContactMe from "./components/ContactMe";
 
 const myWindTech = ["MongoDB", "Express", "React-Native", "Node.js", "Axios", "Expo"
   , "Xcode", "Bcrypt", "React-Native-Maps", "React-Navigation", "JWT"]
@@ -22,7 +23,7 @@ const myCFDescription = "I have always wanted more information about the perform
 const myCFGithub = "https://github.com/SKieronski/project-2-ga"
 const myCFImg = "images/CFResults.png"
 
-const mySPPTech = ["HTML", "CSS"]
+const mySPPTech = ["HTML", "CSS", "JS"]
 const mySPPTitle = "Simon Plays Piano"
 const mySPPDescription = "Simon is a memory game that launched in 1978. It creates a pattern of notes and lights which the player needs to repeat in order to progress. If they press the incorrect input or the time-limit runs out, the game is over. This is a variation of the original Simon game. It involves a piano keyboard that the player interacts with to play. Similarly to Simon, the computer creates a pattern of piano notes that the player needs to repeat. In addition to the tones, the computer will change the color of the keys themselves to visually signify which notes are playing. The game ends when the user inputs the incorrect key."
 const mySPPGithub = "https://github.com/SKieronski/SKieronski.github.io"
@@ -32,10 +33,12 @@ function App() {
 
   return (
   <div className="App">
+    <HeaderBar />
     <ProjectOutline techList={myWindTech} title={myWindTitle} description={myWindDescription} githubHref={myWindGithub} imgSrc={myWindImg}/>
     <ProjectOutline techList={myGitnessTech} title={myGitnessTitle} description={myGitnessDescription} githubHref={myGitnessGithub} imgSrc={myGitnessImg}/>
     <ProjectOutline techList={myCFTech} title={myCFTitle} description={myCFDescription} githubHref={myCFGithub} imgSrc={myCFImg}/>
     <ProjectOutline techList={mySPPTech} title={mySPPTitle} description={mySPPDescription} githubHref={mySPPGithub} imgSrc={mySPPImg}/>
+    <ContactMe />
   </div>
   );
 }
