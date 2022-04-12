@@ -1,16 +1,14 @@
 import "bulma/css/bulma.min.css"
 import React from "react"
+import "./HeaderBar.css"
 
 function HeaderBar() {
     return(
         <>
             <nav class="navbar is-fixed-top is-light has-shadow is-spaced" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="https://github.com/SKieronski">
-                        <span class="icon">
-                            <i class="fab fa-github"/>
-                        </span>
-                        <span>Scott Kieronski</span>
+                    <a class="navbar-item" href="http://localhost:3000/#Hero">
+                        <span id="name">Scott Kieronski</span>
                     </a>
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarOptions">
                         <span aria-hidden="true"></span>

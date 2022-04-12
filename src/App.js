@@ -4,6 +4,7 @@ import HeaderBar from './components/HeaderBar';
 import ProjectOutline from './components/ProjectOutline';
 import ContactMe from "./components/ContactMe";
 import AboutMe from "./components/AboutMe";
+import Hero from "./components/Hero";
 
 const myWindTech = ["MongoDB", "Express", "React-Native", "Node.js", "Axios", "Expo"
   , "Xcode", "Bcrypt", "React-Native-Maps", "React-Navigation", "JWT"]
@@ -33,15 +34,16 @@ const mySPPImg = "images/SPPGameOver.png"
 function App() {
 
   return (
-  <div className="App">
-    <HeaderBar />
-    <ProjectOutline techList={myWindTech} title={myWindTitle} description={myWindDescription} githubHref={myWindGithub} imgSrc={myWindImg}/>
-    <ProjectOutline techList={myGitnessTech} title={myGitnessTitle} description={myGitnessDescription} githubHref={myGitnessGithub} imgSrc={myGitnessImg}/>
-    <ProjectOutline techList={myCFTech} title={myCFTitle} description={myCFDescription} githubHref={myCFGithub} imgSrc={myCFImg}/>
-    <ProjectOutline techList={mySPPTech} title={mySPPTitle} description={mySPPDescription} githubHref={mySPPGithub} imgSrc={mySPPImg}/>
-    <AboutMe />
-    <ContactMe />
-  </div>
+    <div className="App">
+      <HeaderBar />
+      <Hero />
+      <ProjectOutline techList={myWindTech} title={myWindTitle} description={myWindDescription} githubHref={myWindGithub} imgSrc={myWindImg}/>
+      <ProjectOutline techList={myGitnessTech} title={myGitnessTitle} description={myGitnessDescription} githubHref={myGitnessGithub} imgSrc={myGitnessImg}/>
+      <ProjectOutline techList={myCFTech} title={myCFTitle} description={myCFDescription} githubHref={myCFGithub} imgSrc={myCFImg}/>
+      <ProjectOutline techList={mySPPTech} title={mySPPTitle} description={mySPPDescription} githubHref={mySPPGithub} imgSrc={mySPPImg}/>
+      <AboutMe />
+      <ContactMe />
+    </div>
   );
 }
 

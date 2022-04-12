@@ -19,10 +19,10 @@ function ProjectOutline({techList, title, description, githubHref, imgSrc}) {
                     <div class="columns is-mobile is-multiline is-centered">
                         {techList.map((tech) => {
                             return (
-                                <div class="column is-narrow">
-                                <code class="html">
-                                  {tech}
-                                </code>
+                                <div class="column is-narrow" key={`${tech}`}>
+                                    <code class="html">
+                                        {tech}
+                                    </code>
                                 </div>
                             )
                         })}
