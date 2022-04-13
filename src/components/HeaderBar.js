@@ -7,19 +7,19 @@ function HeaderBar() {
         <>
             <nav class="navbar is-fixed-top is-light has-shadow is-spaced is-hidden-mobile" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="http://localhost:3000/#Hero">
+                    <a class="navbar-item" href="https://scottkieronski.netlify.app/#Hero">
                         <span id="name">Scott Kieronski</span>
                     </a>
                 </div>
                 <div class="navbar-menu is-active" id="navbarOptions">
                     <div class="navbar-end">
-                        <a class="navbar-item" href="http://localhost:3000/#ProjectSection">
+                        <a class="navbar-item" href="https://scottkieronski.netlify.app/#ProjectSection">
                             Projects
                         </a>
-                        <a class="navbar-item" href="http://localhost:3000/#About">
+                        <a class="navbar-item" href="https://scottkieronski.netlify.app/#About">
                             About
                         </a>
-                        <a class="navbar-item" href="http://localhost:3000/#Contact">
+                        <a class="navbar-item" href="https://scottkieronski.netlify.app/#Contact">
                             Contact
                         </a>
                     </div>
