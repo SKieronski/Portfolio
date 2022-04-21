@@ -5,7 +5,7 @@ import "./Hero.css"
 function Hero() {
 
     return (
-        <section class="hero is-halfheight hero-image" id="Hero">
+        <section class="hero is-fullheight hero-image" id="Hero">
             <div class="hero-body">
                 <div class="container has-text-centered pb-6" id="heroTextContainer">
                     <p class="title is-1" id="heroName">

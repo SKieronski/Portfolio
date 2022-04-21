@@ -1,3 +1,7 @@
 #name {
     font-family: 'Cedarville Cursive', cursive;
 }
+
+#navBar {
+    min-height: 1rem;
+}

@@ -5,7 +5,7 @@ import "./HeaderBar.css"
 function HeaderBar() {
     return(
         <>
-            <nav class="navbar is-fixed-top is-light has-shadow is-spaced is-hidden-mobile" role="navigation" aria-label="main navigation">
+            <nav class="navbar is-fixed-top is-light has-shadow is-hidden-mobile" id="navBar" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="https://scottkieronski.com/#Hero">
                         <span id="name">Scott Kieronski</span>
