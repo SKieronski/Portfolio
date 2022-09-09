@@ -10,8 +10,9 @@ function AboutMe() {
                 <p class="title is-1 has-text-centered" id="titleText">About Me</p>
                 <p className="pText">
                     Hello! I'm a full stack web developer interested in all things MERN and I have experience
-                    with Python, Django, and PSQL too. I have just graduated from the General Assembly SEI Immersive, so I'm 
-                    fully capable of picking up new technologies quickly as well! As of 4/12/2022, I am working on this portfolio website.
+                    with GraphQL, Python, and Django too. I have just graduated from the General Assembly SEI Immersive, so I'm 
+                    fully capable of picking up new technologies quickly as well! Currently, I'm working as a software developer for 
+                    <a href="https://jomi.com/">JoMI</a>!
                 </p>
                 <br/>
                 <p className="pText">
