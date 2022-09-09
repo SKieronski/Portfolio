@@ -11,7 +11,7 @@ function AboutMe() {
                 <p className="pText">
                     Hello! I'm a full stack web developer interested in all things MERN and I have experience
                     with GraphQL, Python, and Django too. I have just graduated from the General Assembly SEI Immersive, so I'm 
-                    fully capable of picking up new technologies quickly as well! Currently, I'm working as a software developer for 
+                    fully capable of picking up new technologies quickly as well! Currently, I'm working as a software developer for  
                     <a href="https://jomi.com/">JoMI</a>!
                 </p>
                 <br/>
